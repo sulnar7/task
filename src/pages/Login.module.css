@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+} 
+.text{
+    text-align: center;
+    font-size: 45px;
+    font-weight: '900';
+}  
+.mail {
+    border: 1px solid silver;
+        width: 400px;
+        padding: 10px;
+        border-radius: 16px;
+        box-shadow: 1.5px 2px #d4cece;
+        position: relative;
+}
+.password {
+    position: relative;
+    border: 1px solid silver;
+        width: 400px;
+        padding: 10px;
+        border-radius: 16px;
+        box-shadow: 1.5px 2px #d4cece;
+}
+.button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 16px;
+        cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.mainIcon{
+    position: absolute;
+    transform: translate(-165%,70%);
+    cursor:pointer;
+}
+.passwordIcon{
+    display: inline;
+    position: relative;
+    transform: translate(-165%,70%);
+
+}
